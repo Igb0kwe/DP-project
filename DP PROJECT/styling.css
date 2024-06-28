@@ -1,0 +1,156 @@
+dt {
+     font-weight: bold;
+     text-decoration: underline;
+     padding-left: 1.5%;
+     padding-right: 1.5%;
+    color:black;
+}
+p, h1, h3, {
+	padding: 0;
+	margin: 2%;
+	box-sizing: border-box;
+	font-family: "Times New Roman";
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+	font-size: 25px;
+}
+h3 {
+	font-family: "Arial Black";
+}
+.menu-bar { 
+	background-color: #020463;
+	text-align: center; 
+}
+.menu-bar ul {
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li {
+	width: 150px;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+.menu-bar ul li a {
+	text-decoration: none;
+	color: #fff;
+} 
+.active, .menu-bar ul li:hover {
+	background: #020463;
+	border-radius: 3px;
+}
+.menu-bar .fa {
+	margin-right: 8px;
+}
+.sub-menu-1 {
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+	display: block;
+	position: absolute;
+	background: #020463;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px double #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+	border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+	color: #2A00FF
+}
+.menu-title {
+  display: block;
+  width: 10px;
+  height: 40px;
+  padding: 12px 0 0;
+  background: #020463;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s background-color;
+}
+.main {
+	width: 60%;
+	float: left;
+}
+.main-image {
+	width: 40%;
+	float: right;
+}
+.container {
+	background-color: #FFFFFF;
+	width: 90%;
+	height: 100%;
+	align-self: center;
+	align-content: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-left: 5%;
+	margin-right: inherit;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.secondary_header {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #020463;
+	clear: left;
+	text-decoration: none
+}
+.copyright {
+	text-align: center;
+	background-color: #020463;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+	font-family: "Source Sans Pro";
+}
+.left-article {
+    width: 60%;
+	float: left;
+	text-align: center;
+}
+.right-article {
+    width: 40%;
+    float: right;
+	height: 20%;
+}
+.follow {
+    text-align: right;
+}
+.sub-menu-2 {
+	display: none;	
+}	
+.hover-me:hover .sub-menu-2 {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: #020463;
+}
+.marq {
+    font-family: "Algerian";
+    color: #fff;
+}
